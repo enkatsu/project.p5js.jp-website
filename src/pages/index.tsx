@@ -4,7 +4,7 @@ import About from "../components/about"
 import Members from "../components/members"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import "./mystyles.scss"
+import "./index.scss"
 
 
 const IndexPage: React.FC<PageProps> = () => {
