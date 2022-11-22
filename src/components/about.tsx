@@ -11,8 +11,9 @@ class About extends React.Component {
           I have been working on the translation with students from Meisei University since September 2021.
           It is referenced by organizations that operate and develop p5.js as an example of how to make it multilingual.
         </div>
-        <div>
-          Project Lead Katsuya Endoh
+        <div className="has-text-right">
+          Project Lead<br/>
+          Katsuya Endoh
         </div>
       </section>
     )
