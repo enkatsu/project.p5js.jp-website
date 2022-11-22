@@ -9,11 +9,11 @@ const headingStyles = {
 class Header extends React.Component {
   render() {    
     return (
-      <article >
+      <header>
         <div>
         <h1 style={headingStyles}>p5js.jp Project</h1>
         </div>
-      </article>
+      </header>
     )
   }
 }

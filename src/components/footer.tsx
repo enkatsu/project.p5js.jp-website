@@ -9,11 +9,11 @@ const headingStyles = {
 class Footer extends React.Component {
   render() {    
     return (
-      <article >
+      <footer>
         <div>
         <h2 style={headingStyles}>Footer</h2>
         </div>
-      </article>
+      </footer>
     )
   }
 }
