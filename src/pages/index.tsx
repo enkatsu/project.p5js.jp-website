@@ -10,16 +10,23 @@ import "./index.scss"
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main className="section">
-      <div className="container">
-        <Header></Header>
-        <About></About>
-        <Members></Members>
-        <Footer></Footer>
-      </div>
-    </main>
+        <div className="container">
+          <Header></Header>
+          <About></About>
+          <Members></Members>
+          <Footer></Footer>
+        </div>
+      </main>
   )
 }
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Home Page</title>
+export const Head: HeadFC = () => {
+  return (
+    <>
+      <title>p5js.jp project</title>
+      <meta name="description" content="p5js.jp project site" />
+    </>
+  )
+}

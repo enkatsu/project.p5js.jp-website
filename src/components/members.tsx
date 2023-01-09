@@ -3,19 +3,19 @@ import * as React from "react"
 
 const members = [
   {
-    name: 'Katsuya Endoh'
+    name: 'Katsuya Endoh',
   },
   {
-    name: 'Katsuya Endoh'
+    name: 'Katsuya Endoh', 
   },
   {
-    name: 'Katsuya Endoh'
+    name: 'Katsuya Endoh',
   },
   {
-    name: 'Katsuya Endoh'
+    name: 'Katsuya Endoh', 
   },
   {
-    name: 'Katsuya Endoh'
+    name: 'Katsuya Endoh',    
   },
 ];
 
@@ -32,7 +32,7 @@ class Members extends React.Component {
                 <div className="card">
                   <header className="card-header">
                     <p className="card-header-title">
-                    {member.name}
+                      {member.name}
                     </p>
                   </header>
                   <div className="card-image">
